@@ -1,8 +1,11 @@
 def separator(ls):
     
     even_ls = []
+
     odd_ls = []
+
     for i in ls:
+        
         if i % 2 == 0 :
             even_ls.append(i)
         else:
